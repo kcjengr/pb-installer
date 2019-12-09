@@ -1,0 +1,7 @@
+o<go_to_g30> sub
+
+G30
+
+o<go_to_g30> endsub
+
+M2

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Probe Basic</Name>
+    <Version>1.0.0</Version>
+    <Title>Probe Basic Installer</Title>
+    <Publisher>Kcjeng</Publisher>
+    <ProductUrl>https://kcjengr.github.io/probe_basic/</ProductUrl>
+    <Logo>icon.png</Logo>
+    <Watermark>watermark.png</Watermark>
+    <StartMenuDir>Probe Basic</StartMenuDir>
+    <TargetDir>@HomeDir@/probebasic/</TargetDir>
+</Installer>
