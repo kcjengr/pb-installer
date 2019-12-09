@@ -8,5 +8,5 @@
     <Logo>icon.png</Logo>
     <Watermark>watermark.png</Watermark>
     <StartMenuDir>Probe Basic</StartMenuDir>
-    <TargetDir>@HomeDir@/probebasic/</TargetDir>
+    <TargetDir>@HomeDir@/probe_basic/</TargetDir>
 </Installer>

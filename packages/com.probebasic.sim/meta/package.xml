@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
     <DisplayName>Config examples</DisplayName>
-    <Description>Installs simulator examples.</Description>
+    <Description>Installs simulator examples to ~/linuxcnc/configs</Description>
     <Version>0.1.0-1</Version>
     <ReleaseDate>2019-09-21</ReleaseDate>
     <Licenses>
@@ -12,5 +12,7 @@
     <Name>com.probebasic.sim</Name>
     <Dependencies>com.probebasic.core</Dependencies>
     <Default>true</Default>
+
+    <Script>installscript.qs</Script>
 
 </Package>

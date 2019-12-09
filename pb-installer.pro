@@ -4,6 +4,9 @@ INSTALLER = ProbeBasicInstaller
 
 INPUT = $$PWD/config/config.xml $$PWD/packages/
 
+INPUT += $$PWD/packages/com.kcjengr.qtpyvcp/meta/package.xml
+INPUT += $$PWD/packages/com.kcjengr.qtpyvcp/meta/installscript.qs
+
 INPUT += $$PWD/packages/com.probebasic.core/meta/package.xml
 INPUT += $$PWD/packages/com.probebasic.core/meta/installscript.qs
 
