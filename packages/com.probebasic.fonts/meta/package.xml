@@ -5,7 +5,7 @@
     <Version>0.1.0-1</Version>
     <ReleaseDate>2019-09-21</ReleaseDate>
     <Licenses>
-        <License name="GNU Public License" file="LICENSE" />
+        <License name="SIL Open Font License 1.1" file="LICENSE" />
     </Licenses>
 
 
