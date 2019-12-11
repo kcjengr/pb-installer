@@ -1,6 +1,6 @@
 TEMPLATE = aux
 
-INSTALLER = ProbeBasicInstaller
+INSTALLER = ProbeBasic-Installer
 
 INPUT = $$PWD/config/config.xml $$PWD/packages/
 

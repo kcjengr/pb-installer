@@ -12,5 +12,4 @@
     <Default>true</Default>
     <Script>installscript.qs</Script>
     <Dependencies>com.kcjengr.qtpyvcp, com.probebasic.fonts</Dependencies>
-
 </Package>

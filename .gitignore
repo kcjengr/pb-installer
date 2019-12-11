@@ -2,3 +2,5 @@
 build/
 
 pb-installer.pro.user
+
+build_release/

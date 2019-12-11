@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec="linuxcnc"
+Name=ProbeBasic
+GenericName=Probe Basic.
+Icon=ProbeBasicIcon
+Terminal=false
+Categories=Cnc;
