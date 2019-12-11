@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>Probe Basic</DisplayName>
-    <Description>Installs Probe Basic core package</Description>
-    <Version>0.1.0-1</Version>
+    <DisplayName>Probe Basic v.0.0.7</DisplayName>
+    <Description>Installs Probe Basic v.0.0.7</Description>
+    <Version>0.0.7</Version>
     <ReleaseDate>2019-09-21</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
     <SortingPriority>10</SortingPriority>
     <Name>com.probebasic.core</Name>
-    <ForcedInstallation>true</ForcedInstallation>
+    <Default>true</Default>
     <Script>installscript.qs</Script>
+    <Dependencies>com.kcjengr.qtpyvcp, com.probebasic.fonts</Dependencies>
 
 </Package>

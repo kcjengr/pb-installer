@@ -7,10 +7,9 @@
     <Licenses>
         <License name="SIL Open Font License 1.1" file="LICENSE" />
     </Licenses>
-
-
+    <SortingPriority>6</SortingPriority>
     <Name>com.probebasic.fonts</Name>
-    <ForcedInstallation>true</ForcedInstallation>
+    <Default>true</Default>
 
     <Script>installscript.qs</Script>
 

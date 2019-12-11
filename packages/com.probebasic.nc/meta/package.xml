@@ -8,7 +8,7 @@
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
 
-    <SortingPriority>6</SortingPriority>
+    <SortingPriority>4</SortingPriority>
     <Name>com.probebasic.nc</Name>
     <Dependencies>com.probebasic.core</Dependencies>
     <Default>true</Default>

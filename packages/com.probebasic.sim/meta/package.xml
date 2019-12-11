@@ -8,7 +8,7 @@
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
 
-    <SortingPriority>7</SortingPriority>
+    <SortingPriority>2</SortingPriority>
     <Name>com.probebasic.sim</Name>
     <Dependencies>com.probebasic.core</Dependencies>
     <Default>true</Default>

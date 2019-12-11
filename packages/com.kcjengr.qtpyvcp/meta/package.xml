@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>QtPyVCP</DisplayName>
-    <Description>Installs QtPyVCP framework</Description>
-    <Version>0.1.0-1</Version>
+    <DisplayName>QtPyVCP v.0.2.8</DisplayName>
+    <Description>Installs QtPyVCP framework v.0.2.8</Description>
+    <Version>0.2.8</Version>
     <ReleaseDate>2019-09-21</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
-    <SortingPriority>10</SortingPriority>
+    <SortingPriority>8</SortingPriority>
     <Name>com.kcjengr.qtpyvcp</Name>
-    <ForcedInstallation>true</ForcedInstallation>
+    <Default>true</Default>
     <Script>installscript.qs</Script>
 
 </Package>
