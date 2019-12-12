@@ -3,7 +3,7 @@
     <DisplayName>Config examples</DisplayName>
     <Description>Installs simulator examples to ~/linuxcnc/configs</Description>
     <Version>0.1.0-1</Version>
-    <ReleaseDate>2019-09-21</ReleaseDate>
+    <ReleaseDate>2019-12-11</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>

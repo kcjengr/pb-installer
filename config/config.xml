@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
-    <Name>Probe Basic v0.0.7</Name>
-    <Version>0.0.7</Version>
+    <Name>Probe Basic v0.0.8</Name>
+    <Version>0.0.8</Version>
     <Title>Probe Basic Installer</Title>
     <Publisher>Kcjeng</Publisher>
     <ProductUrl>https://kcjengr.github.io/probe_basic/</ProductUrl>
