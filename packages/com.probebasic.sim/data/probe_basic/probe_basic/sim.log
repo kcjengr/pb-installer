@@ -1,0 +1,11 @@
+2019-12-21 18:25:31,120 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic/sim.log
+2019-12-21 18:25:31,120 - qtpyvcp - INFO - QtPyVCP Version: v0.3.0+5.g85eabda9
+2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
+2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
+2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
+2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
+2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
+2019-12-21 18:25:31,615 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic/probe_basic.qss
+2019-12-21 18:25:34,433 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic/hallib/time.hal
