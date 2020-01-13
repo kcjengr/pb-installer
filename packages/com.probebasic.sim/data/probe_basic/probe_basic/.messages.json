@@ -28,5 +28,55 @@
         "task_mode": "MDI", 
         "task_state": "On", 
         "timestamp": 1578887541.46047
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Need tool prepared -Txx- for \n toolchange", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1578933272.492056
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Named parameter #<probe_fast_fr> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1578948007.289414
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Linear move on line 23 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1578948131.677212
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Linear move on line 23 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1578948131.769163
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1578948131.969674
     }
 ]

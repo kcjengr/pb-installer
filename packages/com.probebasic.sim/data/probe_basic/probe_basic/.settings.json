@@ -1,9 +1,18 @@
 {
     "probe-parameters.max-xy-distance": 1.0, 
-    "probe-parameters.max-z-distance": 1.0, 
-    "probe-parameters.probe-fast-fr": 10.0, 
+    "probe-parameters.max-z-distance": 10.0, 
+    "probe-parameters.probe-fast-fr": 15.0, 
+    "probe-parameters.probe-slow-fr": 2.0, 
     "probe-parameters.probe-tool-number": 99.0, 
     "probe-parameters.step-off-width": 0.25, 
     "probe-parameters.xy-clearance": 0.1, 
-    "probe-parameters.z-clearance": 0.1
+    "probe-parameters.z-clearance": 0.5, 
+    "tool-change-position.x-tool-change-position": 12.0, 
+    "tool-change-position.y-tool-change-position": 4.0, 
+    "tool-setter-probe.fast-probe-fr": 15.0, 
+    "tool-setter-probe.retract-distance": 0.5, 
+    "tool-setter-probe.slow-probe-fr": 5.0, 
+    "tool-setter-probe.spindle-nose-height": 10.0, 
+    "tool-setter-probe.xy-max-travel": 0.5, 
+    "tool-setter-probe.z-max-travel": 10.5
 }
