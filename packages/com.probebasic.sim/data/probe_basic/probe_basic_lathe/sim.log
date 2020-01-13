@@ -1,0 +1,89 @@
+2020-01-08 20:10:44,564 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic_lathe/sim.log
+2020-01-08 20:10:44,564 - qtpyvcp - INFO - QtPyVCP Version: v0.3.0+29.g7b1de437.dirty
+2020-01-08 20:10:45,026 - qtpyvcp.utilities.info - INFO - The machine has 2 axes and 2 joints
+2020-01-08 20:10:45,026 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2020-01-08 20:10:45,027 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2020-01-08 20:10:45,027 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 1
+2020-01-08 20:10:45,075 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.qss
+2020-01-08 20:10:46,399 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:48,676 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:49,332 - qtpyvcp.widgets.base_widgets.base_widget - ERROR - Error calling rules expression:
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/base_widgets/base_widget.py", line 144, in registerRules
+    exp()
+  File "<string>", line 1, in <lambda>
+TypeError: setText(self, str): argument 1 has unexpected type 'float'
+2020-01-08 20:10:49,374 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:49,934 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:50,491 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:51,104 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:51,673 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:52,205 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:52,737 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:53,228 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:53,697 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:54,195 - qtpyvcp.vcp_launcher - CRITICAL - Unhandled exception in setting_slider.py line 96
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/input_widgets/setting_slider.py", line 96, in textFormat
+    str = text_fmt.format(setting.getValue())
+AttributeError: 'NoneType' object has no attribute 'getValue'
+2020-01-08 20:10:54,927 - qtpyvcp.plugins.positions - ERROR - Error getting channel
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/plugins/positions.py", line 110, in getChannel
+    chan_obj = self.channels[chan]
+KeyError: u'axis'
+2020-01-08 20:10:54,927 - qtpyvcp.widgets.base_widgets.base_widget - ERROR - Error evaluating rule: position:axis?rel
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/base_widgets/base_widget.py", line 123, in registerRules
+    triggers.append(chan_obj.notify)
+AttributeError: 'NoneType' object has no attribute 'notify'
+2020-01-08 20:10:55,121 - qtpyvcp.widgets.base_widgets.base_widget - ERROR - Error evaluating rule: status:spindle[0].speed
+Traceback (most recent call last):
+  File "/home/chris/dev/qtpyvcp/qtpyvcp/widgets/base_widgets/base_widget.py", line 123, in registerRules
+    triggers.append(chan_obj.notify)
+AttributeError: 'NoneType' object has no attribute 'notify'
+2020-01-08 20:10:55,235 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic_lathe/hallib/time.hal

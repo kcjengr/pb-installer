@@ -1,0 +1,32 @@
+[
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": " Specified probe tool #<probe_tool_number> \n not in spindle, aborting", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1577721896.176698
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "bad number format (conversion failed) \n parsing ''", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1577722757.206435
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Named parameter #<selected_tool> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1578887541.46047
+    }
+]

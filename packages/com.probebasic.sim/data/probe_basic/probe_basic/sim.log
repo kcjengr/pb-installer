@@ -1,11 +1,20 @@
-2019-12-21 18:25:31,120 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic/sim.log
-2019-12-21 18:25:31,120 - qtpyvcp - INFO - QtPyVCP Version: v0.3.0+5.g85eabda9
-2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
-2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
-2019-12-21 18:25:31,568 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
-2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
-2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
-2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
-2019-12-21 18:25:31,569 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
-2019-12-21 18:25:31,615 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic/probe_basic.qss
-2019-12-21 18:25:34,433 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic/hallib/time.hal
+2020-01-12 22:53:07,980 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic/sim.log
+2020-01-12 22:53:07,981 - qtpyvcp - INFO - QtPyVCP Version: v0.3.0+39.g9f401bfb8
+2020-01-12 22:53:08,427 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
+2020-01-12 22:53:08,427 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2020-01-12 22:53:08,427 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2020-01-12 22:53:08,427 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
+2020-01-12 22:53:08,427 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
+2020-01-12 22:53:08,428 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
+2020-01-12 22:53:08,428 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
+2020-01-12 22:53:08,470 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic/probe_basic.qss
+2020-01-12 22:53:11,616 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic/hallib/time.hal
+2020-01-12 22:53:15,233 - qtpyvcp.actions.machine_actions - INFO - Homing all axes
+2020-01-12 22:53:41,666 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<probe_cal_reset> call
+2020-01-12 22:53:42,814 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<probe_cal_reset> call
+2020-01-12 22:53:44,679 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<reset_all_data> call
+2020-01-12 22:53:48,413 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: G10 L20 P1 X0.0 Y0.0 Z0.0
+2020-01-12 22:57:13,690 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<reset_all_data> call
+2020-01-12 22:57:14,916 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<x_data_reset> call
+2020-01-12 22:57:16,360 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<y_data_reset> call
+2020-01-12 22:57:18,580 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<probe_cal_reset> call

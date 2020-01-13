@@ -1,3 +1,10 @@
 {
-    "machine.jog.linear-speed": 600.0
+    "probe-parameters.max-xy-distance": 1.0, 
+    "probe-parameters.max-z-distance": 1.0, 
+    "probe-parameters.probe-fast-fr": 10.0, 
+    "probe-parameters.probe-tool-number": 99.0, 
+    "probe-parameters.step-off-width": 0.25, 
+    "probe-parameters.xy-clearance": 0.1, 
+    "probe-parameters.z-clearance": 0.1, 
+    "touch-probe.calibration-offset": 0.005167
 }
