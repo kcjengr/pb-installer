@@ -10,6 +10,7 @@
     <SortingPriority>8</SortingPriority>
     <Name>com.kcjengr.qtpyvcp</Name>
     <Default>true</Default>
+    <RequiresAdminRights>true</RequiresAdminRights>
     <Script>installscript.qs</Script>
 
 </Package>
