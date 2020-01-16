@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>Probe Basic v.0.1.1</DisplayName>
-    <Description>Installs Probe Basic v.0.1.1</Description>
-    <Version>0.1.1</Version>
-    <ReleaseDate>2019-12-11</ReleaseDate>
+    <DisplayName>Probe Basic v.0.1.2</DisplayName>
+    <Description>Installs Probe Basic v.0.1.2</Description>
+    <Version>0.1.2</Version>
+    <ReleaseDate>2020-01-16</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
