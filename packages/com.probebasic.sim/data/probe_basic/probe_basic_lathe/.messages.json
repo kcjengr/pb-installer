@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Cannot home while shared home \n switch is closed j=0", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1579193258.427079
+    }
+]

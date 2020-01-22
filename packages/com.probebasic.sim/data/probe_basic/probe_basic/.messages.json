@@ -78,5 +78,55 @@
         "task_mode": "Manual", 
         "task_state": "On", 
         "timestamp": 1578948131.969674
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": " Tool Diameter Probing is \n Not Defined in Subroutine", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1578960099.191868
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": " Tool Diameter Probing is \n Not Defined in Subroutine", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1578960932.184276
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Probed Pos: -2.262418 Z Pos: \n -2.262542", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1579658728.210337
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Probed Pos: 7.941952 X Pos: \n 7.942075", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1579658734.808549
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/dev/probe_basic/example_gcode/blank.ngc", 
+        "message_text": "Probed Pos: 4.533552 Y Pos: \n 4.533675", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1579658746.212239
     }
 ]

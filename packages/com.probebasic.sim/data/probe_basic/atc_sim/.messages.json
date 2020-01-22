@@ -565,5 +565,25 @@
         "task_mode": "MDI", 
         "task_state": "On", 
         "timestamp": 1578863868.169106
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<p> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1579667771.066984
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character 'n' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1579667784.061078
     }
 ]

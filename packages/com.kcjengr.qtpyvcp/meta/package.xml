@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>QtPyVCP v.0.3.2</DisplayName>
-    <Description>Installs QtPyVCP framework v.0.3.2</Description>
-    <Version>0.3.2</Version>
+    <DisplayName>QtPyVCP v.0.3.4</DisplayName>
+    <Description>Installs QtPyVCP framework v.0.3.4</Description>
+    <Version>0.3.4</Version>
     <ReleaseDate>2020-01-16</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />

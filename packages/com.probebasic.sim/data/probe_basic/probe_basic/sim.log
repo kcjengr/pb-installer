@@ -1,16 +1,12 @@
-2020-01-13 16:02:23,209 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic/sim.log
-2020-01-13 16:02:23,209 - qtpyvcp - INFO - QtPyVCP Version: v0.3.1
-2020-01-13 16:02:23,667 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
-2020-01-13 16:02:23,667 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
-2020-01-13 16:02:23,667 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
-2020-01-13 16:02:23,668 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
-2020-01-13 16:02:23,668 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
-2020-01-13 16:02:23,668 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
-2020-01-13 16:02:23,668 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
-2020-01-13 16:02:23,712 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic/probe_basic.qss
-2020-01-13 16:02:26,476 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic/hallib/time.hal
-2020-01-13 16:02:32,160 - qtpyvcp.actions.machine_actions - INFO - Homing all axes
-2020-01-13 16:02:53,489 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: M61 Q2
-2020-01-13 16:02:57,772 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: M61 Q0
-2020-01-13 16:03:08,352 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: M61 Q2
-2020-01-13 16:03:11,820 - qtpyvcp.actions.machine_actions - INFO - Issuing MDI command: o<tool_touch_off> call [15.0] [5.0] [10.5] [0.5] [10.0] [0.5] [0.0000] [0.0]
+2020-01-21 22:44:50,350 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic/sim.log
+2020-01-21 22:44:50,351 - qtpyvcp - INFO - QtPyVCP Version: v0.3.2+8.g3e6aa75b7
+2020-01-21 22:44:50,814 - qtpyvcp.utilities.info - INFO - The machine has 5 axes and 5 joints
+2020-01-21 22:44:50,814 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2020-01-21 22:44:50,814 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2020-01-21 22:44:50,814 - qtpyvcp.utilities.info - INFO - Axis Y --> Joint 1
+2020-01-21 22:44:50,815 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 2
+2020-01-21 22:44:50,815 - qtpyvcp.utilities.info - INFO - Axis A --> Joint 3
+2020-01-21 22:44:50,815 - qtpyvcp.utilities.info - INFO - Axis B --> Joint 4
+2020-01-21 22:44:50,857 - qtpyvcp - INFO - Loading QSS stylesheet file: /home/chris/dev/probe_basic/probe_basic/probe_basic.qss
+2020-01-21 22:44:53,743 - qtpyvcp.vcp_launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic/hallib/time.hal
+2020-01-21 22:44:58,759 - qtpyvcp.actions.machine_actions - INFO - Homing all axes
