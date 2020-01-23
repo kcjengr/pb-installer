@@ -14,7 +14,7 @@
     <TargetDir>@HomeDir@/probe_basic/</TargetDir>
     <RemoteRepositories>
          <Repository>
-             <Url>http://54.38.157.98/probe_basic</Url>
+             <Url>http://http://repository.qtpyvcp.com/probe_basic</Url>
          </Repository>
      </RemoteRepositories>
 </Installer>
