@@ -12,9 +12,4 @@
     <Watermark>watermark.png</Watermark>
     <StartMenuDir>Probe Basic</StartMenuDir>
     <TargetDir>@HomeDir@/probe_basic/</TargetDir>
-    <RemoteRepositories>
-         <Repository>
-             <Url>http://repository.qtpyvcp.com/probe_basic</Url>
-         </Repository>
-     </RemoteRepositories>
 </Installer>
