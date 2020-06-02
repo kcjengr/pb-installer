@@ -1,6 +1,6 @@
 TEMPLATE = aux
 
-INSTALLER = ProbeBasic-Installer
+INSTALLER = ProbeBasic-Installer-$$(PB_VERSION)
 
 INPUT = $$PWD/config/config.xml $$PWD/packages/
 
@@ -21,8 +21,8 @@ INPUT += $$PWD/packages/com.probebasic.nc/meta/installscript.qs
 
 probebasic.input = INPUT
 probebasic.output = $$INSTALLER
-probebasic.commands = $$(HOME)/Qt/QtIFW-3.2.0/bin/binarycreator --config $$PWD/config/config.xml -p $$PWD/packages ${QMAKE_FILE_OUT}
-probebasic.CONFIG += target_predeps no_link combine
+qtpyvcp.commands += $$(HOME)/Qt/QtIFW-3.2.0/bin/binarycreator --online-only --config $$PWD/config/build_config.xml -p $$PWD/packages $$PWD/bin/${QMAKE_FILE_OUT}.run;
+qtpyvcp.commands += $$(HOME)/Qt/QtIFW-3.2.0/bin/repogen -p $$PWD/packages $$PWD/repo;probebasic.CONFIG += target_predeps no_link combine
 
 QMAKE_EXTRA_COMPILERS += probebasic
 

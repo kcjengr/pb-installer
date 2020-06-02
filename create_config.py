@@ -1,24 +1,22 @@
 import sys
 from xml.etree import ElementTree
 
-from qtpyvcp._version import get_versions
-
 
 def main(args):
 
-    main_url = "http://repository.qtpyvcp.com/pb/repo/"
-    dev_url = "http://repository.qtpyvcp.com/pb-dev/repo/"
+    main_url = "http://repository.qtpyvcp.com/main/repo/"
+    dev_url = "http://repository.qtpyvcp.com/dev/repo/"
 
     in_config_file = args[1]
     out_config_file = args[2]
 
     url = args[3]
 
+    release_version = args[4]
+
     tree = ElementTree.parse(in_config_file)
     root = tree.getroot()
 
-    release_version = get_versions().get('version')[1:]
-    print(release_version)
     version_xml = root.find(".//Version")
     version_xml.text = release_version
 
