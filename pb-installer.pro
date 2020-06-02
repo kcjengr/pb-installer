@@ -2,7 +2,7 @@ TEMPLATE = aux
 
 INSTALLER = ProbeBasic-Installer-$$(PB_VERSION)
 
-INPUT = $$PWD/config/config.xml $$PWD/packages/
+INPUT = $$PWD/config/build.xml $$PWD/packages/
 
 INPUT += $$PWD/packages/com.kcjengr.qtpyvcp/meta/package.xml
 INPUT += $$PWD/packages/com.kcjengr.qtpyvcp/meta/installscript.qs
