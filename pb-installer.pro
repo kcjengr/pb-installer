@@ -21,7 +21,7 @@ INPUT += $$PWD/packages/com.probebasic.nc/meta/installscript.qs
 
 probebasic.input = INPUT
 probebasic.output = $$INSTALLER
-probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.0/bin/binarycreator --online-only --config $$PWD/config/build.xml -p $$PWD/packages $$PWD/bin/${QMAKE_FILE_OUT}.run;
+probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.0/bin/binarycreator --online-only --config $$PWD/config/build_config.xml -p $$PWD/packages $$PWD/bin/${QMAKE_FILE_OUT}.run;
 probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.0/bin/repogen -p $$PWD/packages $$PWD/repo;
 
 probebasic.CONFIG += target_predeps no_link combine
