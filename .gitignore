@@ -6,3 +6,5 @@ pb-installer.pro.user
 build_release/
 
 repo/
+
+.idea/
