@@ -3,10 +3,7 @@ from xml.etree import ElementTree
 
 
 def main(args):
-
-    main_url = "http://repository.qtpyvcp.com/main/repo/"
-    dev_url = "http://repository.qtpyvcp.com/dev/repo/"
-
+    
     in_config_file = args[1]
     out_config_file = args[2]
 
