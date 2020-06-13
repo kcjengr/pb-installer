@@ -3,7 +3,7 @@ from xml.etree import ElementTree
 
 
 def main(args):
-    
+
     in_config_file = args[1]
     out_config_file = args[2]
 
