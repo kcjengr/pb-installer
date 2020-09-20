@@ -585,5 +585,885 @@
         "task_mode": "Manual", 
         "task_state": "On", 
         "timestamp": 1579667784.061078
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Unknown word starting with f \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1580482912.293649
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Unknown word starting with f \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1580482945.70361
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in the carousel", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1580484007.301831
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in carousel pocket 6", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1580489102.476219
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in carousel pocket 6", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1580489112.717189
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in carousel pocket 8", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1580489163.941027
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Requested tool 23 not found \n in the tool table", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1580914248.768228
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Requested tool 23 not found \n in the tool table", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1580914252.148095
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Exceeded POSITIVE soft limit (0.00000) \n on joint 2", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1580918167.584224
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Stop, fix joints and axis \n LIMITS, then Restart", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580918167.668018
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_text": "Unable to open file </home/chris/Downloads/case_machining_op_1.ngc> \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580919874.708681
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_text": "can't open /home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580919874.868607
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_text": "Unable to open file </home/chris/Downloads/case_machining_op_1.ngc> \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580919878.273726
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_text": "can't open /home/chris/Downloads/case_machining_op_1.ngc", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580919878.467828
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/case_machining_op_1.ngc", 
+        "message_text": "wait for orient complete: TIMED \n OUT", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580920884.672462
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/case_machining_op_1.ngc", 
+        "message_text": "wait for orient complete: TIMED \n OUT", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1580920956.563097
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Exceeded POSITIVE soft limit (0.00000) \n on joint 2", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581004601.325548
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Stop, fix joints and axis \n LIMITS, then Restart", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581004601.468529
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_op_2_offending_file.ngc", 
+        "message_text": "wait for orient complete: TIMED \n OUT", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581005238.417132
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_op_2_offending_file.ngc", 
+        "message_text": "wait for orient complete: TIMED \n OUT", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581005325.664784
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/Downloads/case_op_2_offending_file.ngc", 
+        "message_text": "wait for orient complete: TIMED \n OUT", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581005360.062073
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581005811.708794
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581005817.951798
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Need non-negative Q-word to specify \n tool number with M61", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581190394.404554
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Need non-negative Q-word to specify \n tool number with M61", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581190410.893953
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Need non-negative Q-word to specify \n tool number with M61", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581190893.784806
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in carousel pocket 11", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581190908.001116
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Need non-negative Q-word to specify \n tool number with M61", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581190935.004069
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581190973.572625
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581191124.78064
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581191136.965622
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581191142.663421
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581191166.093781
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to store is already stored \n in carousel pocket 11", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581191192.391717
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Unknown word starting with e \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581191519.103266
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581195665.772498
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581195666.0181
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581195666.164918
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581195931.378962
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581195957.488422
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581195957.56406
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581195957.764956
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581196972.853329
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581196972.964786
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581196973.16474
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581197322.692799
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581197322.764233
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581197322.964177
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581197735.171329
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581197949.97503
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Linear move on line 25 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581197950.168695
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581197950.364819
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Requested tool 99 not found \n in the tool table", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581198246.374933
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Requested tool 99 not found \n in the tool table", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581198267.243246
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the tool you are trying \n to load is already stored \n in carousel pocket 7", 
+        "message_type": "info", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581198718.795062
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP 1.ngc.failed", 
+        "message_text": "Unable to open file </home/chris/linuxcnc/nc_files/ngc_test_folder/Left \n Puck OP 1.ngc.failed>", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581202904.867617
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP 1.ngc.failed", 
+        "message_text": "can't open /home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP \n 1.ngc.failed", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581202904.968422
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP 1.ngc.failed", 
+        "message_text": "Unable to open file </home/chris/linuxcnc/nc_files/ngc_test_folder/Left \n Puck OP 1.ngc.failed>", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581202905.164407
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP 1.ngc.failed", 
+        "message_text": "can't open /home/chris/linuxcnc/nc_files/ngc_test_folder/Left Puck OP \n 1.ngc.failed", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581202905.364619
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/case_op_2_offending_file.ngc", 
+        "message_text": "Linear move on line 30 \n would exceed Z's positive limit \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581216613.773173
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/case_op_2_offending_file.ngc", 
+        "message_text": "Linear move on line 30 \n would exceed joint 2's positive \n limit", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581216613.964274
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/case_op_2_offending_file.ngc", 
+        "message_text": "invalid params in linear command \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581216614.164136
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "joint 0 on limit switch \n error", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "Reset", 
+        "timestamp": 1581216845.173303
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "joint 0 on limit switch \n error", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "Reset", 
+        "timestamp": 1581216853.197662
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "joint 0 on limit switch \n error", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "Reset", 
+        "timestamp": 1581216863.364377
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "joint 0 on limit switch \n error", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "Reset", 
+        "timestamp": 1581216868.963558
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Exceeded POSITIVE soft limit (0.00000) \n on joint 2", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581217018.776412
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Stop, fix joints and axis \n LIMITS, then Restart", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581217018.964529
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Unknown g code used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581217040.196973
+    }, 
+    {
+        "interp_mode": "Waiting", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/ngc_test_folder/case_op_2_offending_file.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Auto", 
+        "task_state": "On", 
+        "timestamp": 1581217126.008363
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "tool not in carousel", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581628414.987164
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<activate_pogrammable_coolant> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581628434.161474
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "end of move in home \n state 7", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581645612.180365
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character 'b' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581646351.513694
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character 'b' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581693285.373536
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character 'b' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581693499.232902
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<activate_pogrammable_coolant> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581694573.654211
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<100> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581695337.421718
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character '[' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581695477.728272
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character '/' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581696146.574491
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<activate_pogrammable_coolant> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581696749.772915
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "118: duplicate O-word label - \n already defined in line 95: \n 'o<210> if [1 EQ 1]' \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581696878.773035
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "bad number format (conversion failed) \n parsing ''", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581696969.502367
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character '0' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581697113.972509
+    }, 
+    {
+        "interp_mode": "Reading", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<_ini[program_coolant]turn_on_programmable_coolant> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581699687.378173
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "the M6 remap procedure toolchange \n did not return a value \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581699804.754936
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Named parameter #<activate_pogrammable_coolant> not defined \n", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "MDI", 
+        "task_state": "On", 
+        "timestamp": 1581702341.65012
+    }, 
+    {
+        "interp_mode": "Idle", 
+        "loaded_file": "/home/chris/linuxcnc/nc_files/blank.ngc", 
+        "message_text": "Bad character 'b' used", 
+        "message_type": "error", 
+        "operator_id": "", 
+        "task_mode": "Manual", 
+        "task_state": "On", 
+        "timestamp": 1581702511.430351
     }
 ]

@@ -1,0 +1,1 @@
+2020-07-20 17:07:48,256 - qtpyvcp.lib.decorators - WARNING - Deprecation Warning: The widget "qtpyvcp.widgets.display_widgets.dro_widget.DROWidget" has been deprecated and will be removed in the future. Reason: new DRO implementation. Replaced by: DroLabel.
