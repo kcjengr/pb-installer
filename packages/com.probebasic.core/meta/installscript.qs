@@ -12,7 +12,6 @@ Component.prototype.createOperations = function()
 
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic/")
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic_lathe/")
-    component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/widgets/")
 
     component.addOperation("Execute", "mkdir", "-p", "@HomeDir@/.local/share/applications/");
     component.addOperation("InstallIcons", "@TargetDir@/ProbeBasicIcon.png");
