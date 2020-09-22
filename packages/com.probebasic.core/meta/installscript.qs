@@ -10,8 +10,8 @@ Component.prototype.createOperations = function()
 
     component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-@ProductVersion@-py2-none-any.whl", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "probe_basic==%ProductVersion%");
 
-    component.addOperation("Execute", "qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic/")
-    component.addOperation("Execute", "qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic_lathe/")
+    component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic/")
+    component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic_lathe/")
 
     component.addOperation("Execute", "mkdir", "-p", "@HomeDir@/.local/share/applications/");
     component.addOperation("InstallIcons", "@TargetDir@/ProbeBasicIcon.png");
