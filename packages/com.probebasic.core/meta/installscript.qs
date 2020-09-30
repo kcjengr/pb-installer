@@ -7,14 +7,10 @@ Component.prototype.createOperations = function()
 
     component.createOperations();
 
-    var package_version = installer.componentByName("com.probebasic.core").value("ProductVersion")
-    var package_version2 = installer.componentByName("com.probebasic.core").value("Version")
-
-    console.log("VERSION: " + package_version)
-    console.log("VERSION: " + package_version2)
+    var package_version = installer.componentByName("com.probebasic.core").value("Version")
 
     component.addElevatedOperation("Execute", "apt", "install", "--assume-yes", "python-pyqt5", "python-pyqt5.qtquick", "python-dbus.mainloop.pyqt5", "python-pyqt5.qtopengl", "python-pyqt5.qsci", "python-pyqt5.qtmultimedia", "qml-module-qtquick-controls", "gstreamer1.0-plugins-bad", "libqt5multimedia5-plugins", "pyqt5-dev-tools", "python-dev", "python-setuptools", "python-pip", "git", "python-pyqtgraph", "python-pyqt5.qtwebkit");
-    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-@ProductVersion@-py2-none-any.whl", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "probe_basic");
+    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + package_version + "-py2-none-any.whl", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "probe_basic");
 
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic/")
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python2.7/site-packages/probe_basic_lathe/")
@@ -25,4 +21,3 @@ Component.prototype.createOperations = function()
     // component.addOperation("Copy", "@TargetDir@/ProbeBasicIcon.png", "@HomeDir@/.local/share/pixmaps/");
     // component.addOperation("Copy", "@HomeDir@/.local/share/applications/ProbeBasicSim.desktop", "@HomeDir@/Desktop/");
 }
-
