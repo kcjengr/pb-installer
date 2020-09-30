@@ -7,7 +7,7 @@ Component.prototype.createOperations = function()
 
     component.createOperations();
 
-    var package_version = component.value("scVersion")
+    var package_version = component.value("ProductVersion")
     var pro_version = installer.value("ProductVersion")
 
     console.log("VERSION: " + package_version)
