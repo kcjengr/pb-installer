@@ -1,5 +1,7 @@
 TEMPLATE = aux
 
+QTIFW_MODE = online_all
+
 INSTALLER = ProbeBasic-Installer-$$(PB_VERSION).run
 
 INPUT = $$PWD/config/config.xml $$PWD/packages/
