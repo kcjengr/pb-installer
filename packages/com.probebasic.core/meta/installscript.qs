@@ -4,7 +4,7 @@ function Component()
 
 Component.prototype.createOperations = function()
 {
-    var package_versiom = installer.value("ProductVersion");
+    var package_version = installer.value("ProductVersion");
 
     component.createOperations();
 
