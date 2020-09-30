@@ -1,7 +1,5 @@
 TEMPLATE = aux
 
-QTIFW_MODE = online_all
-
 INSTALLER = ProbeBasic-Installer-$$(PB_VERSION).run
 
 INPUT = $$PWD/config/config.xml $$PWD/packages/
@@ -22,7 +20,7 @@ probebasic.input = INPUT
 probebasic.output = $$INSTALLER
 
 probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.2/bin/repogen --update -p $$PWD/packages $$PWD/repo;
-probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.2/bin/binarycreator --online-only -p $$PWD/packages --config $$PWD/config/config.xml $$PWD/bin/${QMAKE_FILE_OUT};
+probebasic.commands += $$(HOME)/Qt/QtIFW-3.2.2/bin/binarycreator -p $$PWD/packages --config $$PWD/config/config.xml $$PWD/bin/${QMAKE_FILE_OUT};
 
 probebasic.CONFIG += target_predeps no_link combine
 
