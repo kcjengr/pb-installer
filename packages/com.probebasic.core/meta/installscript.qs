@@ -7,8 +7,8 @@ Component.prototype.createOperations = function()
 
     component.createOperations();
 
-    var package_version = installer.componentByName("com.probebasic.core").getValue("ProductVersion")
-    var package_version2 = installer.componentByName("com.probebasic.core").getValue("Version")
+    var package_version = installer.componentByName("com.probebasic.core").value("ProductVersion")
+    var package_version2 = installer.componentByName("com.probebasic.core").value("Version")
 
     console.log("VERSION: " + package_version)
     console.log("VERSION: " + package_version2)
