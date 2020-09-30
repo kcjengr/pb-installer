@@ -19,6 +19,6 @@ Component.prototype.createOperations = function()
     component.addOperation("InstallIcons", "@TargetDir@/ProbeBasicIcon.png");
     component.addOperation("InstallIcons", "@HomeDir@/.local/share/icons/ProbeBasicIcon.png");
 
-    component.addOperation("CreateDesktopEntry", "@HomeDir@/.local/share/applications/ProbeBasicMaintenance.desktop", "Version=1.0\nType=Application\nTerminal=false\nExec=@TargetDir@/PBMaintenaceTool\nName=ProbeBasic Updates\nIcon=@HomeDir@/.local/share/pixmaps/probebasic.png");
-    component.addOperation("CreateDesktopEntry", "@HomeDir@/.local/share/applications/ProbeBasicSim.desktop", "Version=1.0\nType=Application\nTerminal=false\nExec=linuxcnc @HomeDir@linuxcnc/configs/probe_basic/probe_basic/probe_basic.ini\nName=ProbeBasic SIM\nIcon=@HomeDir@/.local/share/pixmaps/probebasic.png");
+    component.addOperation("CreateDesktopEntry", "@HomeDir@/.local/share/applications/ProbeBasicMaintenance.desktop", "Version=1.0\nType=Application\nTerminal=false\nExec=@TargetDir@/PBMaintenaceTool\nName=ProbeBasic Updates\nIcon=@HomeDir@/.local/share/icons/ProbeBasicIcon.png");
+    component.addOperation("CreateDesktopEntry", "@HomeDir@/.local/share/applications/ProbeBasicSim.desktop", "Version=1.0\nType=Application\nTerminal=false\nExec=linuxcnc @HomeDir@/linuxcnc/configs/probe_basic/probe_basic/probe_basic.ini\nName=ProbeBasic SIM\nIcon=@HomeDir@/.local/share/icons/ProbeBasicIcon.png");
 }
