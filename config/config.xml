@@ -9,12 +9,10 @@
     <InstallerWindowIcon>icon.png</InstallerWindowIcon>
     <Logo>logo.png</Logo>
     <Watermark>watermark.png</Watermark>
-
     <ProductImages>
         <Image>probe1.png</Image>
         <Image>probe2.png</Image>
     </ProductImages>
-    
     <StartMenuDir>Probe Basic</StartMenuDir>
     <TargetDir>@HomeDir@/probe_basic_installation/</TargetDir>
     <MaintenanceToolName>PBMaintenanceTool</MaintenanceToolName>
@@ -23,4 +21,5 @@
              <Url>http://repository.qtpyvcp.com/repo/pb-dev/repo</Url>
          </Repository>
     </RemoteRepositories>
+    <ControlScript>controller.qs</ControlScript>
 </Installer>
