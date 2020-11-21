@@ -5,10 +5,15 @@
     <Title>Probe Basic Installer</Title>
     <Publisher>Kcjengr</Publisher>
     <ProductUrl>https://kcjengr.github.io/probe_basic/</ProductUrl>
-    <WizardStyle>Modern</WizardStyle>
+    <PageListPixmap>logo.png</PageListPixmap>
     <InstallerWindowIcon>icon.png</InstallerWindowIcon>
     <Logo>logo.png</Logo>
     <Watermark>watermark.png</Watermark>
+    <StyleSheet>probe_basic.qss</StyleSheet>
+    <ProductImages>
+        <Image>probe1.png</Image>
+        <Image>probe2.png</Image>
+    </ProductImages>
     <StartMenuDir>Probe Basic</StartMenuDir>
     <TargetDir>@HomeDir@/probe_basic_installation/</TargetDir>
     <MaintenanceToolName>PBMaintenanceTool</MaintenanceToolName>
@@ -17,4 +22,5 @@
              <Url>http://repository.qtpyvcp.com/repo/pb-dev/repo</Url>
          </Repository>
     </RemoteRepositories>
+    <ControlScript>controller.qs</ControlScript>
 </Installer>
