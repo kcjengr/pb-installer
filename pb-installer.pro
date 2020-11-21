@@ -2,7 +2,8 @@ TEMPLATE = aux
 
 INSTALLER = ProbeBasic-Installer-$$(PB_VERSION).run
 
-INPUT = $$PWD/config/config.xml $$PWD/packages/
+INPUT += $$PWD/config/
+INPUT += $$PWD/packages/
 
 INPUT += $$PWD/packages/com.probebasic.core/meta/package.xml
 INPUT += $$PWD/packages/com.probebasic.core/meta/installscript.qs
