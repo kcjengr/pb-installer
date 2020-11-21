@@ -5,8 +5,8 @@
     <Title>Probe Basic Installer</Title>
     <Publisher>Kcjengr</Publisher>
     <ProductUrl>https://kcjengr.github.io/probe_basic/</ProductUrl>
-    <PageListPixmap>logo_png.png</PageListPixmap>
-    <InstallerWindowIcon>icon_png.png</InstallerWindowIcon>
+    <PageListPixmap>logo.png</PageListPixmap>
+    <InstallerWindowIcon>icon.png</InstallerWindowIcon>
     <Logo>logo.png</Logo>
     <Watermark>watermark.png</Watermark>
     <StyleSheet>probe_basic.qss</StyleSheet>
