@@ -10,7 +10,9 @@
     <SortingPriority>10</SortingPriority>
     <Name>com.probebasic.core</Name>
     <Default>true</Default>
+    <!--
     <RequiresAdminRights>true</RequiresAdminRights>
+    -->
     <Script>installscript.qs</Script>
     <Dependencies>com.probebasic.fonts</Dependencies>
 </Package>
