@@ -1,9 +1,9 @@
-2020-09-20 09:21:45,131 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic_lathe/sim.log
-2020-09-20 09:21:45,131 - qtpyvcp - INFO - QtPyVCP Version: v0.3.8+106.gdcb42859ee
-2020-09-20 09:21:45,149 - qtpyvcp - DEBUG - Qt Version: 5.7.1
-2020-09-20 09:21:45,149 - qtpyvcp - DEBUG - Qt API: QT_API
-2020-09-20 09:21:45,149 - qtpyvcp - DEBUG - QtPy Version: 1.9.0
-2020-09-20 09:21:45,150 - qtpyvcp - DEBUG - Command line options:
+2021-02-04 19:06:43,138 - qtpyvcp - INFO - Logging to /home/chris/dev/probe_basic/config/probe_basic_lathe/sim.log
+2021-02-04 19:06:43,138 - qtpyvcp - INFO - QtPyVCP Version: v0.3.11+43.g53b477db0e
+2021-02-04 19:06:43,156 - qtpyvcp - DEBUG - Qt Version: 5.7.1
+2021-02-04 19:06:43,156 - qtpyvcp - DEBUG - Qt API: QT_API
+2021-02-04 19:06:43,156 - qtpyvcp - DEBUG - QtPy Version: 1.9.0
+2021-02-04 19:06:43,156 - qtpyvcp - DEBUG - Command line options:
 {
     "command_line_args": null, 
     "config_file": "/home/chris/dev/probe_basic/config/probe_basic_lathe/custom_config.yml", 
@@ -27,8 +27,8 @@
     "theme": null, 
     "version": false
 }
-2020-09-20 09:21:45,287 - qtpyvcp.utilities.config_loader - DEBUG - Loading config files: ['/home/chris/dev/probe_basic/config/probe_basic_lathe/custom_config.yml', '/home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.yml', '/home/chris/dev/qtpyvcp/qtpyvcp/yaml_lib/default_config.yml']
-2020-09-20 09:21:45,740 - qtpyvcp.utilities.config_loader - DEBUG - Merged YAML config:
+2021-02-04 19:06:43,293 - qtpyvcp.utilities.config_loader - DEBUG - Loading config files: ['/home/chris/dev/probe_basic/config/probe_basic_lathe/custom_config.yml', '/home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.yml', '/home/chris/dev/qtpyvcp/qtpyvcp/yaml_lib/default_config.yml']
+2021-02-04 19:06:43,764 - qtpyvcp.utilities.config_loader - DEBUG - Merged YAML config:
 
 default_menubar:
 - title: File
@@ -121,6 +121,8 @@ default_menubar:
     action: settings.backplot.show-program-labels
   - title: Show Program Ticks
     action: settings.backplot.show-program-ticks
+  - title: Use Colors per Tool
+    action: settings.backplot.multitool-colors
   - separator
   - title: Perspective View
     action: settings.backplot.perspective-view
@@ -222,6 +224,10 @@ windows:
         - separator
         - title: Override Limits
           action: machine.override_limits
+      - title: Settings
+        items:
+        - title: Show On-screen Keyboard
+          action: settings.virtual-input.enable
       - title: View
         items:
         - title: Show Gridlines
@@ -367,30 +373,60 @@ settings:
     default_value: '%9.2f'
   backplot.show-grid:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-program-bounds:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-program-labels:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-program-ticks:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-machine-bounds:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-machine-labels:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.show-machine-ticks:
     default_value: false
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.perspective-view:
-    default_value: true
+    default_value: false
+    description: perspective or orth views
+    persistent: true
+    min_value: 0
+    max_value: 1
   backplot.view:
-    default_value: 1
+    default_value: 2
     options:
-    - 'X: Side View'
+    - 'X: Front View'
+    - 'XZ: Lathe View'
+    - 'XZ2: Lathe View'
     - 'Y: Front View'
     - 'Z: Top View'
     - 'Z2: Bottom View'
-    - Isometric
+    - 'P: Isometric'
+    - 'X: Side View'
     - 'XZ: Top View'
     - 'XZ2: RearTop View'
+  backplot.multitool-colors:
+    default_value: true
   touch-probe.calibration-offset:
     description: Probe trigger point offset.
     default_value: 0.0
@@ -559,68 +595,103 @@ qtdesigner:
   qss_file: /home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.qss
 
 
-2020-09-20 09:21:45,790 - qtpyvcp.utilities.info - INFO - The machine has 2 axes and 2 joints
-2020-09-20 09:21:45,790 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
-2020-09-20 09:21:45,790 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
-2020-09-20 09:21:45,790 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 1
-2020-09-20 09:21:45,790 - qtpyvcp.app.launcher - DEBUG - Time: 0.000 (+0.000) - in script
-2020-09-20 09:21:45,791 - qtpyvcp.app.launcher - DEBUG - Loading data plugings
-2020-09-20 09:21:45,791 - qtpyvcp.plugins - DEBUG - Loading plugin 'status' from 'qtpyvcp.plugins.status:Status'
-2020-09-20 09:21:45,804 - qtpyvcp.plugins - DEBUG - Loading plugin 'persistent_data_manager' from 'qtpyvcp.plugins.persistent_data_manager:PersistentDataManager'
-2020-09-20 09:21:45,805 - qtpyvcp.plugins - DEBUG - Loading plugin 'settings' from 'qtpyvcp.plugins.settings:Settings'
-2020-09-20 09:21:45,806 - qtpyvcp.plugins - DEBUG - Loading plugin 'position' from 'qtpyvcp.plugins.positions:Position'
-2020-09-20 09:21:45,807 - qtpyvcp.plugins - DEBUG - Loading plugin 'tooltable' from 'qtpyvcp.plugins.tool_table:ToolTable'
-2020-09-20 09:21:45,814 - qtpyvcp.plugins - DEBUG - Loading plugin 'offsettable' from 'qtpyvcp.plugins.offset_table:OffsetTable'
-2020-09-20 09:21:45,816 - qtpyvcp.plugins - DEBUG - Loading plugin 'notifications' from 'qtpyvcp.plugins.notifications:Notifications'
-2020-09-20 09:21:45,823 - qtpyvcp.plugins - DEBUG - Loading plugin 'file_locations' from 'qtpyvcp.plugins.file_locations:FileLocations'
-2020-09-20 09:21:45,885 - qtpyvcp.plugins - DEBUG - Loading plugin 'virtual_input' from 'qtpyvcp.plugins.virtual_input_manager:VirtualInputManager'
-2020-09-20 09:21:45,886 - qtpyvcp.app.launcher - DEBUG - Time: 0.096 (+0.096) - done loading data plugins
-2020-09-20 09:21:45,886 - qtpyvcp.app.launcher - DEBUG - Initializing app
-2020-09-20 09:21:45,905 - qtpyvcp.plugins - DEBUG - Initializing 'status' plugin
-2020-09-20 09:21:45,905 - qtpyvcp.plugins.status - DEBUG - Starting periodic updates with 75ms cycle time
-2020-09-20 09:21:45,906 - qtpyvcp.plugins - DEBUG - Initializing 'persistent_data_manager' plugin
-2020-09-20 09:21:45,911 - qtpyvcp.plugins - DEBUG - Initializing 'settings' plugin
-2020-09-20 09:21:45,911 - qtpyvcp.plugins - DEBUG - Initializing 'position' plugin
-2020-09-20 09:21:45,912 - qtpyvcp.plugins - DEBUG - Initializing 'tooltable' plugin
-2020-09-20 09:21:45,912 - qtpyvcp.plugins - DEBUG - Initializing 'offsettable' plugin
-2020-09-20 09:21:45,912 - qtpyvcp.plugins - DEBUG - Initializing 'notifications' plugin
-2020-09-20 09:21:45,915 - qtpyvcp.plugins - DEBUG - Initializing 'file_locations' plugin
-2020-09-20 09:21:45,934 - qtpyvcp.plugins - DEBUG - Initializing 'virtual_input' plugin
-2020-09-20 09:21:46,026 - qtpyvcp - INFO - Loading global stylesheet: /home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.qss
-2020-09-20 09:21:46,033 - qtpyvcp.app.launcher - DEBUG - Time: 0.243 (+0.147) - done initializing app
-2020-09-20 09:21:46,033 - qtpyvcp.app.launcher - DEBUG - Loading dialogs
-2020-09-20 09:21:46,122 - qtpyvcp.app.launcher - DEBUG - Time: 0.332 (+0.089) - done loading dialogs
-2020-09-20 09:21:46,123 - qtpyvcp.app.launcher - DEBUG - Loading windows
-2020-09-20 09:21:46,942 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
-2020-09-20 09:21:47,167 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: XZ
-2020-09-20 09:21:48,140 - qtpyvcp.lib.decorators - WARNING - Deprecation Warning: The widget "qtpyvcp.widgets.display_widgets.load_meter.LoadMeter" has been deprecated and will be removed in the future. Reason: new base class implementation. Replaced by: BarIndicator.
-2020-09-20 09:21:48,352 - qtpyvcp.app.launcher - DEBUG - Time: 2.562 (+2.230) - done loading windows
-2020-09-20 09:21:48,353 - qtpyvcp.app.launcher - DEBUG - Initializing widgets
-2020-09-20 09:21:48,359 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2020-09-20 09:21:48,360 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes-2.enable (bit in)
-2020-09-20 09:21:48,360 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes-2.in (u32 in)
-2020-09-20 09:21:48,360 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2020-09-20 09:21:48,361 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds-2.enable (bit in)
-2020-09-20 09:21:48,361 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds-2.in (u32 in)
-2020-09-20 09:21:48,363 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
-2020-09-20 09:21:48,364 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours-2.enable (bit in)
-2020-09-20 09:21:48,364 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours-2.in (u32 in)
-2020-09-20 09:21:48,369 - qtpyvcp.app.launcher - DEBUG - Time: 2.578 (+0.016) - done initializing widgets
-2020-09-20 09:21:48,369 - qtpyvcp.app.launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic_lathe/hallib/time.hal
-2020-09-20 09:21:48,498 - qtpyvcp.actions.program_actions - DEBUG - Loading NC program: /home/chris/linuxcnc/nc_files/pb_examples/blank.ngc
-2020-09-20 09:21:48,553 - qtpyvcp.plugins.offset_table - DEBUG - Params file changed: /home/chris/dev/probe_basic/config/probe_basic_lathe/sim-lathe.var
-2020-09-20 09:21:48,765 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - load_program
-2020-09-20 09:21:48,780 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - G-code Comment: interpreter: Lathe diameter mode changed to diameter
-2020-09-20 09:21:48,780 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - G-code Comment: New Program
-2020-09-20 09:21:48,830 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
-2020-09-20 09:21:52,944 - qtpyvcp - DEBUG - Terminating widgets
-2020-09-20 09:21:52,952 - qtpyvcp.plugins - DEBUG - Terminating 'virtual_input' plugin
-2020-09-20 09:21:52,953 - qtpyvcp.plugins - DEBUG - Terminating 'file_locations' plugin
-2020-09-20 09:21:52,953 - qtpyvcp.plugins - DEBUG - Terminating 'notifications' plugin
-2020-09-20 09:21:52,953 - qtpyvcp.plugins - DEBUG - Terminating 'offsettable' plugin
-2020-09-20 09:21:52,953 - qtpyvcp.plugins - DEBUG - Terminating 'tooltable' plugin
-2020-09-20 09:21:52,954 - qtpyvcp.plugins - DEBUG - Terminating 'position' plugin
-2020-09-20 09:21:52,954 - qtpyvcp.plugins - DEBUG - Terminating 'settings' plugin
-2020-09-20 09:21:52,954 - qtpyvcp.plugins - DEBUG - Terminating 'persistent_data_manager' plugin
-2020-09-20 09:21:52,954 - qtpyvcp.plugins.persistent_data_manager - DEBUG - Writing persistent data to file: /home/chris/dev/probe_basic/config/probe_basic_lathe/.vcp_persistent_data.pickle
-2020-09-20 09:21:52,966 - qtpyvcp.plugins - DEBUG - Terminating 'status' plugin
+2021-02-04 19:06:43,812 - qtpyvcp.utilities.info - INFO - The machine has 2 axes and 2 joints
+2021-02-04 19:06:43,813 - qtpyvcp.utilities.info - INFO - The Axis/Joint mapping is:
+2021-02-04 19:06:43,813 - qtpyvcp.utilities.info - INFO - Axis X --> Joint 0
+2021-02-04 19:06:43,813 - qtpyvcp.utilities.info - INFO - Axis Z --> Joint 1
+2021-02-04 19:06:43,813 - qtpyvcp.app.launcher - DEBUG - Time: 0.000 (+0.000) - in script
+2021-02-04 19:06:43,813 - qtpyvcp.app.launcher - DEBUG - Loading data plugings
+2021-02-04 19:06:43,814 - qtpyvcp.plugins - DEBUG - Loading plugin 'status' from 'qtpyvcp.plugins.status:Status'
+2021-02-04 19:06:43,828 - qtpyvcp.plugins - DEBUG - Loading plugin 'persistent_data_manager' from 'qtpyvcp.plugins.persistent_data_manager:PersistentDataManager'
+2021-02-04 19:06:43,829 - qtpyvcp.plugins - DEBUG - Loading plugin 'settings' from 'qtpyvcp.plugins.settings:Settings'
+2021-02-04 19:06:43,830 - qtpyvcp.plugins - DEBUG - Loading plugin 'position' from 'qtpyvcp.plugins.positions:Position'
+2021-02-04 19:06:43,831 - qtpyvcp.plugins - DEBUG - Loading plugin 'tooltable' from 'qtpyvcp.plugins.tool_table:ToolTable'
+2021-02-04 19:06:43,836 - qtpyvcp.plugins - DEBUG - Loading plugin 'offsettable' from 'qtpyvcp.plugins.offset_table:OffsetTable'
+2021-02-04 19:06:43,838 - qtpyvcp.plugins - DEBUG - Loading plugin 'notifications' from 'qtpyvcp.plugins.notifications:Notifications'
+2021-02-04 19:06:43,845 - qtpyvcp.plugins - DEBUG - Loading plugin 'file_locations' from 'qtpyvcp.plugins.file_locations:FileLocations'
+2021-02-04 19:06:44,013 - qtpyvcp.plugins - DEBUG - Loading plugin 'virtual_input' from 'qtpyvcp.plugins.virtual_input_manager:VirtualInputManager'
+2021-02-04 19:06:44,014 - qtpyvcp.app.launcher - DEBUG - Time: 0.201 (+0.201) - done loading data plugins
+2021-02-04 19:06:44,014 - qtpyvcp.app.launcher - DEBUG - Initializing app
+2021-02-04 19:06:44,032 - qtpyvcp.plugins - DEBUG - Initializing 'status' plugin
+2021-02-04 19:06:44,033 - qtpyvcp.plugins.status - DEBUG - Starting periodic updates with 75ms cycle time
+2021-02-04 19:06:44,033 - qtpyvcp.plugins - DEBUG - Initializing 'persistent_data_manager' plugin
+2021-02-04 19:06:44,036 - qtpyvcp.plugins - DEBUG - Initializing 'settings' plugin
+2021-02-04 19:06:44,036 - qtpyvcp.actions.machine_actions - DEBUG - Setting jog linear speed: 150.0
+2021-02-04 19:06:44,036 - qtpyvcp.plugins - DEBUG - Initializing 'position' plugin
+2021-02-04 19:06:44,036 - qtpyvcp.plugins - DEBUG - Initializing 'tooltable' plugin
+2021-02-04 19:06:44,037 - qtpyvcp.plugins - DEBUG - Initializing 'offsettable' plugin
+2021-02-04 19:06:44,037 - qtpyvcp.plugins - DEBUG - Initializing 'notifications' plugin
+2021-02-04 19:06:44,037 - qtpyvcp.plugins - DEBUG - Initializing 'file_locations' plugin
+2021-02-04 19:06:44,060 - qtpyvcp.plugins - DEBUG - Initializing 'virtual_input' plugin
+2021-02-04 19:06:44,127 - qtpyvcp - INFO - Loading global stylesheet: /home/chris/dev/probe_basic/probe_basic_lathe/probe_basic_lathe.qss
+2021-02-04 19:06:44,134 - qtpyvcp.app.launcher - DEBUG - Time: 0.321 (+0.120) - done initializing app
+2021-02-04 19:06:44,134 - qtpyvcp.app.launcher - DEBUG - Loading dialogs
+2021-02-04 19:06:44,210 - qtpyvcp.app.launcher - DEBUG - Time: 0.397 (+0.076) - done loading dialogs
+2021-02-04 19:06:44,211 - qtpyvcp.app.launcher - DEBUG - Loading windows
+2021-02-04 19:06:44,878 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------using refactored vtk code
+2021-02-04 19:06:44,879 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - self._status.stat.g5x_offset: <type 'tuple'>
+2021-02-04 19:06:44,879 - qtpyvcp.widgets.display_widgets.vtk_backplot.linuxcnc_datasource - DEBUG - -----current_wcs index: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2021-02-04 19:06:44,879 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_index 0
+2021-02-04 19:06:44,880 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2021-02-04 19:06:44,880 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2021-02-04 19:06:44,897 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------translate1: (0.0, 0.0, 0.0)
+2021-02-04 19:06:44,898 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------active_wcs_offset: (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+2021-02-04 19:06:44,899 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------VTKCanon init
+2021-02-04 19:06:44,901 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2021-02-04 19:06:44,901 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
+2021-02-04 19:06:44,901 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2021-02-04 19:06:44,902 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
+2021-02-04 19:06:45,065 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - show grid
+2021-02-04 19:06:45,286 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - Setting view to: XZ2
+2021-02-04 19:06:46,240 - qtpyvcp.lib.decorators - WARNING - Deprecation Warning: The widget "qtpyvcp.widgets.display_widgets.load_meter.LoadMeter" has been deprecated and will be removed in the future. Reason: new base class implementation. Replaced by: BarIndicator.
+2021-02-04 19:06:46,327 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'status' plugin
+2021-02-04 19:06:46,327 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'persistent_data_manager' plugin
+2021-02-04 19:06:46,327 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'settings' plugin
+2021-02-04 19:06:46,328 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'position' plugin
+2021-02-04 19:06:46,328 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'tooltable' plugin
+2021-02-04 19:06:46,328 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'offsettable' plugin
+2021-02-04 19:06:46,328 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'notifications' plugin
+2021-02-04 19:06:46,329 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'file_locations' plugin
+2021-02-04 19:06:46,329 - qtpyvcp.plugins - DEBUG - Post GUI Initializing 'virtual_input' plugin
+2021-02-04 19:06:46,457 - qtpyvcp.app.launcher - DEBUG - Time: 2.644 (+2.247) - done loading windows
+2021-02-04 19:06:46,458 - qtpyvcp.app.launcher - DEBUG - Initializing widgets
+2021-02-04 19:06:46,463 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2021-02-04 19:06:46,463 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds-2.enable (bit in)
+2021-02-04 19:06:46,464 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerseconds-2.in (u32 in)
+2021-02-04 19:06:46,464 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2021-02-04 19:06:46,465 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes-2.enable (bit in)
+2021-02-04 19:06:46,465 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerminutes-2.in (u32 in)
+2021-02-04 19:06:46,472 - qtpyvcp.hal - DEBUG - Using existing HAL component: qtpyvcp
+2021-02-04 19:06:46,473 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours-2.enable (bit in)
+2021-02-04 19:06:46,473 - qtpyvcp.hal.hal_qlib - DEBUG - Adding HAL pin: qtpyvcp.timerhours-2.in (u32 in)
+2021-02-04 19:06:46,475 - qtpyvcp.app.launcher - DEBUG - Time: 2.662 (+0.018) - done initializing widgets
+2021-02-04 19:06:46,475 - qtpyvcp.app.launcher - INFO - Loading POSTGUI_HALFILE: /home/chris/dev/probe_basic/config/probe_basic_lathe/hallib/time.hal
+2021-02-04 19:06:46,597 - qtpyvcp.actions.program_actions - DEBUG - Loading NC program: /home/chris/linuxcnc/nc_files/pb_examples/blank.ngc
+2021-02-04 19:06:46,651 - qtpyvcp.plugins.offset_table - DEBUG - Params file changed: /home/chris/dev/probe_basic/config/probe_basic_lathe/sim-lathe.var
+2021-02-04 19:06:46,846 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program
+2021-02-04 19:06:46,847 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------load_program wcs_index: 0
+2021-02-04 19:06:46,849 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------VTKCanon init
+2021-02-04 19:06:46,856 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------received offset change 1
+2021-02-04 19:06:46,861 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - G-code Comment: interpreter: Lathe diameter mode changed to diameter
+2021-02-04 19:06:46,861 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - G-code Comment: New Program
+2021-02-04 19:06:46,861 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------received offset change 1
+2021-02-04 19:06:46,861 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Load time 0.0140290260315 seconds ---
+2021-02-04 19:06:46,862 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------path points size: 296
+2021-02-04 19:06:46,862 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_cannon - DEBUG - ---------path points length: 1
+2021-02-04 19:06:46,862 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - -------Draw time 0.0148990154266 seconds ---
+2021-02-04 19:06:46,863 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_offsets: {0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 1: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 2: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 3: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 4: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 5: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 6: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 7: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 8: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}
+2021-02-04 19:06:46,863 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------wcs_index: 0
+2021-02-04 19:06:46,863 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+2021-02-04 19:06:46,863 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - ---------current_position: 0.0
+2021-02-04 19:06:46,912 - qtpyvcp.widgets.display_widgets.vtk_backplot.vtk_backplot - DEBUG - on_offset_table_changed
+2021-02-04 19:06:49,658 - qtpyvcp - DEBUG - Terminating widgets
+2021-02-04 19:06:49,665 - qtpyvcp.plugins - DEBUG - Terminating 'virtual_input' plugin
+2021-02-04 19:06:49,665 - qtpyvcp.plugins - DEBUG - Terminating 'file_locations' plugin
+2021-02-04 19:06:49,665 - qtpyvcp.plugins - DEBUG - Terminating 'notifications' plugin
+2021-02-04 19:06:49,666 - qtpyvcp.plugins - DEBUG - Terminating 'offsettable' plugin
+2021-02-04 19:06:49,666 - qtpyvcp.plugins - DEBUG - Terminating 'tooltable' plugin
+2021-02-04 19:06:49,666 - qtpyvcp.plugins - DEBUG - Terminating 'position' plugin
+2021-02-04 19:06:49,666 - qtpyvcp.plugins - DEBUG - Terminating 'settings' plugin
+2021-02-04 19:06:49,667 - qtpyvcp.plugins - DEBUG - Terminating 'persistent_data_manager' plugin
+2021-02-04 19:06:49,667 - qtpyvcp.plugins.persistent_data_manager - DEBUG - Writing persistent data to file: /home/chris/dev/probe_basic/config/probe_basic_lathe/.vcp_persistent_data.pickle
+2021-02-04 19:06:49,674 - qtpyvcp.plugins - DEBUG - Terminating 'status' plugin
