@@ -1,10 +1,15 @@
 QMainWindow {
-    background: #2e3436;
+    background: #2e3436
+}
+
+QsciScintilla {
+    qproperty-backgroundcolor: #D9DADB;
+    qproperty-marginbackgroundcolor: #D9DADB;
 }
 
 QStatusBar {
-	color: white;
-	font-family: "Bebas Kai";
+    color: white;
+    font-family: "Bebas Kai";
     font-size: 12pt;
 }
 

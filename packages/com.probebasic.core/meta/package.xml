@@ -3,7 +3,7 @@
     <DisplayName>Probe Basic</DisplayName>
     <Description>Installs Probe Basic</Description>
     <Version>0.00</Version>
-    <ReleaseDate>0000-00-00</ReleaseDate>
+    <ReleaseDate>2021-01-01</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
