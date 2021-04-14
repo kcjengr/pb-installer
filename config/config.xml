@@ -9,7 +9,7 @@
     <InstallerWindowIcon>icon.png</InstallerWindowIcon>
     <Logo>logo2.png</Logo>
     <Watermark>watermark.png</Watermark>
-    <StyleSheet>probe_basic.qss</StyleSheet>
+    <StyleSheet>style.qss</StyleSheet>
     <ProductImages>
         <Image>probe1.png</Image>
         <Image>probe2.png</Image>
