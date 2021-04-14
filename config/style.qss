@@ -1,11 +1,11 @@
 QWidget {
-	background: #2e3436;
+    background: #2e3436;
     font-size: 12pt;
-	color: white;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 15px;
-	padding-left: 15px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 QPushButton {
