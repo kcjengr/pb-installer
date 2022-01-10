@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>Probe Basic</Name>
-    <Version>0.0.0</Version>
+    <Version>0.1.5</Version>
     <Title>Probe Basic Installer</Title>
     <Publisher>Kcjengr</Publisher>
     <ProductUrl>https://kcjengr.github.io/probe_basic/</ProductUrl>
     <PageListPixmap>logo.png</PageListPixmap>
-    <StyleSheet>probe_basic.qss</StyleSheet>
+    <InstallerWindowIcon>icon.png</InstallerWindowIcon>
+    <Logo>logo2.png</Logo>
+    <Watermark>watermark.png</Watermark>
+    <StyleSheet>style.qss</StyleSheet>
     <ProductImages>
         <Image>probe1.png</Image>
         <Image>probe2.png</Image>

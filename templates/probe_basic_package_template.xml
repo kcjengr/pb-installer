@@ -3,13 +3,17 @@
     <DisplayName>Probe Basic</DisplayName>
     <Description>Installs Probe Basic</Description>
     <Version>0.00</Version>
-    <ReleaseDate>0000-00-00</ReleaseDate>
+    <ReleaseDate>2021-01-01</ReleaseDate>
     <Licenses>
         <License name="GNU Public License" file="LICENSE" />
     </Licenses>
     <SortingPriority>10</SortingPriority>
     <Name>com.probebasic.core</Name>
     <Default>true</Default>
+    <!--
+    <RequiresAdminRights>true</RequiresAdminRights>
+    -->
     <Script>installscript.qs</Script>
+    <Dependencies>com.qtpyvcp.core</Dependencies>
     <Dependencies>com.probebasic.fonts</Dependencies>
 </Package>

@@ -8,3 +8,5 @@ packages/com.properties.core/data/dist
 packages/com.properties.sim/data
 Makefile
 .qmake.stash
+
+.project
