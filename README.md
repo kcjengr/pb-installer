@@ -1,1 +1,1 @@
-pb-installer
+Probe Basic Installer
