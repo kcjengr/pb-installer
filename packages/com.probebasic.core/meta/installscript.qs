@@ -15,11 +15,11 @@ Component.prototype.createOperations = function()
     component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "pip");
     component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "wheel");
 
-    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.git", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "qtpyvcp");
+    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.git@python2_maintenance", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "qtpyvcp");
 
 
     // Install Conversational Gcode
-    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
+    component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
 
     // Install Probe Basic
     component.addOperation("Execute", "python", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + package_version + "-py2-none-any.whl", "UNDOEXECUTE", "python", "-m", "pip", "uninstall", "--yes", "probe_basic");
