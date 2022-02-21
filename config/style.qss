@@ -1,6 +1,7 @@
 QWidget {
     background: #2e3436;
-    font-size: 12pt;
+    font-family: "Nimbus Sans L Regular Condensed";
+    font-size: 11pt;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
