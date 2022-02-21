@@ -19,7 +19,7 @@
     <MaintenanceToolName>PBMaintenanceTool</MaintenanceToolName>
     <RemoteRepositories>
          <Repository>
-             <Url>http://repository.qtpyvcp.com/repo/pb-dev/repo</Url>
+             <Url>http://repository.qtpyvcp.com/repo/pb-py2/repo</Url>
          </Repository>
     </RemoteRepositories>
     <ControlScript>controller.qs</ControlScript>
