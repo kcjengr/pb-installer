@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>BebasKai.ttf</file>
+    </qresource>
+</RCC>
