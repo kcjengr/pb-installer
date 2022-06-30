@@ -9,7 +9,7 @@ Component.prototype.createOperations = function()
 
     // Get Version From Updates.xml if available
     var package_version = installer.componentByName("com.probebasic.core").value("Version")
- 	var version = text.replace("+", "_");
+ 	var version = package_version.replace("+", "_");
  	 
     // Install Conversational Gcode
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
