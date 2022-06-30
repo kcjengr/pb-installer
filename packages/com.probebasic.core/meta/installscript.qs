@@ -15,8 +15,7 @@ Component.prototype.createOperations = function()
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "pip");
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "wheel");
 
-    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.git", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp");
-
+    // component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.git", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp");
 
     // Install Conversational Gcode
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
