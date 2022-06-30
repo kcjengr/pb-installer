@@ -14,8 +14,6 @@
     <RequiresAdminRights>true</RequiresAdminRights>
     -->
     <Script>installscript.qs</Script>
-    <!--
     <Dependencies>com.qtpyvcp.core</Dependencies>
-    -->
     <Dependencies>com.probebasic.fonts</Dependencies>
 </Package>
