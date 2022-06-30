@@ -9,12 +9,13 @@ Component.prototype.createOperations = function()
 
     // Get Version From Updates.xml if available
     var package_version = installer.componentByName("com.probebasic.core").value("Version")
-
+ 	var version = text.replace("+", "_");
+ 	 
     // Install Conversational Gcode
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
 
     // Install Probe Basic
-    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + package_version + "-py3-none-any.whl", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "probe_basic");
+    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + version + "-py3-none-any.whl", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "probe_basic");
 
     // Compile Resources
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python3.9/site-packages/probe_basic/")
