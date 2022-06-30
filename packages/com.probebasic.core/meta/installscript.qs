@@ -14,7 +14,7 @@ Component.prototype.createOperations = function()
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
 
     // Install Probe Basic
-    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + package_version + "+py3-none-any.whl", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "probe_basic");
+    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + package_version + "+py3-none+any.whl", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "probe_basic");
 
     // Compile Resources
     component.addOperation("Execute", "@HomeDir@/.local/bin/qcompile", "@HomeDir@/.local/lib/python3.9/site-packages/probe_basic/")
