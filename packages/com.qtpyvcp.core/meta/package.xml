@@ -14,5 +14,5 @@
     <RequiresAdminRights>true</RequiresAdminRights>
     -->
     <Script>installscript.qs</Script>
-    <Dependencies>com.linuxcnc.core</Dependencies>
+    <!-- <Dependencies>com.linuxcnc.core</Dependencies> -->
 </Package>

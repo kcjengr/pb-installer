@@ -9,7 +9,7 @@
     </Licenses>
     <SortingPriority>10</SortingPriority>
     <Name>com.linuxcnc.core</Name>
-    <Default>true</Default>
+    <Default>false</Default>
     <!--
     <RequiresAdminRights>true</RequiresAdminRights>
     -->
