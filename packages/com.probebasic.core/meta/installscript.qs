@@ -12,7 +12,7 @@ Component.prototype.createOperations = function()
  	var version = package_version.replace("+", "_");
  	 
     // Install Conversational Gcode
-    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp.conversational-gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp.conversational-gcode");
+    component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "git+https://github.com/kcjengr/qtpyvcp_conversational_gcode.git@python3", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "qtpyvcp_conversational_gcode");
 
     // Install Probe Basic
     component.addOperation("Execute", "python3", "-m", "pip", "install", "--user", "--upgrade", "@TargetDir@/dist/probe_basic-" + version + "-py3-none-any.whl", "UNDOEXECUTE", "python3", "-m", "pip", "uninstall", "--yes", "probe_basic");
